@@ -11,7 +11,8 @@ void rotateArr(int arr[], int d, int n)
 {
         int temp[n];
         int k=0;
-        std::cout<<"\nThe array before rotation:\n"<<std::endl;
+        system("cls");
+            std::cout<<"\nThe array before rotation:\n"<<std::endl;
             for (int j = 0; j < n; j++) 
               {
                 std::cout << arr[j];
